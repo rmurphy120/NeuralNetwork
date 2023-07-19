@@ -2,10 +2,9 @@ import java.io.IOException;
 
 public class Main
 {
-    public static void main(String[] args) throws IOException
-    {
-        int[] networkSizes = {784,256,128,10};
-        Network net = new Network(networkSizes, .01);
+    public static void main(String[] args) throws IOException {
+        int[] networkSizes = {784, 700, 600, 10};
+        Network net = new Network(networkSizes, .0001);
 
         //net.printNetwork();     //Prints network
 
